@@ -3,7 +3,7 @@ namespace FactoryPattern
 {
 	public static class DominicanFood 
 	{
-        
+        //			interface Name __ Food
         public static IOrderMenu Food( string Choice)
 		{
 			switch (Choice)
@@ -24,10 +24,7 @@ namespace FactoryPattern
 				
 		}
 
-        public static void Order()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
 

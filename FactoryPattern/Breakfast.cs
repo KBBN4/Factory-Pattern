@@ -14,8 +14,8 @@ namespace FactoryPattern
 
         public void Order()
         {
-            Console.WriteLine($" For Breafast you have choosen {ItemChoosen} . Here is your Item Count {TotalItemAmount} \n " +
-                $"along with the {Price}. Hope you Enjoy!");
+            Console.WriteLine($" For Breafast you have choosen {ItemChoosen} . Here is your Item Count ( {TotalItemAmount} ) \n " +
+                $"along with the price $ {Price}. Hope you Enjoy!");
         }
     }
 }
